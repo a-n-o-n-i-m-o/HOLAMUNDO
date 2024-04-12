@@ -5,7 +5,7 @@ pipeline {
     stages{ 
         stage('Paso 1'){
             steps{
-                bat 'dir'
+                sh 'ls -l -a'
             }
         }
     }          
