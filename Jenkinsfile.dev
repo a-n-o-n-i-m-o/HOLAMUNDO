@@ -3,9 +3,9 @@ pipeline {
     agent any
     
     stages{ 
-        stage('Paso 3'){
+        stage('Paso 4'){
             steps{
-                echo 'prueba'
+                echo 'chistosinn'
             }
         }
     }          
